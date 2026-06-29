@@ -84,12 +84,6 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
-}
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
@@ -114,6 +108,15 @@ body{
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
+    cursor: pointer;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 .barra{
@@ -142,4 +145,12 @@ body{
     background-color: #00FF85;
     width: 100%;
 }
-<div class="forca fraca"></div>
+
+
+
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
